@@ -589,17 +589,17 @@ body{
 .certificate .certificate__outer .certificate__details .certificate__details-card .certificate__details-card-image{
     width:85%;
     height:100px;
-    padding-top:10px;
+    padding: 0px !important;
+    margin: 20px 15px;
     border-radius: 20px;
-    margin-left: 15px;
 }
 .certificate .certificate__outer .certificate__details .certificate__details-card .certificate__details-card-image img{
-    width:100%;
+    width:95%;
     height: 100%;
     border-radius: 20px;
 }
 .certificate .certificate__outer .certificate__details .certificate__details-card .cetficate__details-card-description h3{
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 15px;
     font-size: 1.1rem;
     font-weight: 600;
@@ -1116,6 +1116,14 @@ footer .footer__copyrights-title .footer__copyrights-discription p{
         justify-content: flex-start;
         padding-left: 20px !important;
         gap:30px;
+    }
+    footer .footer__skill .footer__skill-title .footer__company{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .footer__company-list img{
+        width: 120%;
     }
     footer .footer__skill .footer__skill-list{
         padding-left: 30px !important;
