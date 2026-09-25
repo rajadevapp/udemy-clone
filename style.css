@@ -152,7 +152,7 @@ body{
     background-color: #F6F7F9;
     opacity: 0;
     animation-name: hero-description;
-    animation-duration: 1.5s;
+    animation-duration: 2.5s;
     animation-fill-mode: forwards;
     transition: ease-in-out;
 }
@@ -924,6 +924,12 @@ footer .footer__copyrights-title .footer__copyrights-discription p{
         margin-top: -80px;
         font-weight: 600;
     }
+    .trending-courses .trending-courses__list{
+        gap: 30px;
+    }
+    .trending-courses__card-title_discription{
+        padding-bottom: 20px;
+    }
     .trending-courses .trending-courses__list .trending-courses__card{
         flex-basis:90%;
     }
@@ -947,7 +953,7 @@ footer .footer__copyrights-title .footer__copyrights-discription p{
         justify-content: flex-start;
     }
     .subscription .subscription__outer .subscripion__discription .subscription__button{
-        width: 440px;
+        width: 90%;
         text-align: center;
     }
     .subscription__image{
@@ -1025,7 +1031,7 @@ footer .footer__copyrights-title .footer__copyrights-discription p{
         margin-bottom: 30px;
     }
     .certificate .certificate__outer .certificate__details .certificate__details-card{
-        width:430px;
+        width:95%;
         height:300px;
     }
     .certificate .certificate__outer .certificate__details .certificate__details-card .certificate__details-card-image{
@@ -1046,8 +1052,9 @@ footer .footer__copyrights-title .footer__copyrights-discription p{
         justify-content: flex-start;
     }
     .skills .skills__details .skills__chatgpt{
-        min-width:500px !important;
+        min-width:90% !important;
         max-height: 150px !important;
+
     }
     .skills .skills__details .skills__chatgpt h2{
         padding-left: 20px;
@@ -1057,9 +1064,14 @@ footer .footer__copyrights-title .footer__copyrights-discription p{
     }
     .skills__other{
         flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 0px !important;
     }
     .skills .skills__details .skills__other .skills__other-session{
-        min-width: 200px;
+        min-width: 30%;
+        padding:0px !important ;
+        margin: 0px !important;
     }
     .career .career__details{
         flex-direction: column;
@@ -1069,13 +1081,14 @@ footer .footer__copyrights-title .footer__copyrights-discription p{
         gap:30px;
     }
     .career .career__details .career__details-card{
-        min-width: 500px !important;
+        min-width: 45% !important;
         min-height: 360px;
         margin-left: 20px;
+        margin-right: 20px;
     }
     .career .career__details .career__details-card .career__details-card-image{
         width:100%;
-        height: 300px;
+        height: 250px;
         padding: 0px !important;
         border-radius: 10px !important;
     }
