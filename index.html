@@ -11,45 +11,62 @@
 <body>
     <div class="container">
         <div class="header">
+            <div class="header__menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
             <div class="header__logo">
                 <img src="./images/logo.svg"width="92px">
             </div>
-            <div class="header__links">
-                <div class="link1">
-                    <ul>
-                        <li>Explore</li>
-                        <li>Subscribe</li>
-                    </ul>
+            <div class="header__card-icon">
+                <div class="icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
-                <div class="search">
-                    <div class="search-field">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <input name="search" placeholder="search for anything"/>
-                    </div>
-                </div>
-                <div class="link2">
-                    <ul>
-                        <li>Udemy Business</li>
-                        <li>Teach on Udemy</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="header__buttons">
-                <div class="cart-icon">
+                <div class="icon">
                     <i class="fa-solid fa-cart-shopping"></i>
                 </div>
-                <div class="button"> 
-                    <button type="button" class="btn login-btn" name="sign_in">Log in</button>
-                    <button type="button" class="btn signup-btn" name="sign_up">Sign up</button>
+            </div>
+            <div class="heder__session">
+                <div class="header__links">
+                    <div class="link1">
+                        <ul>
+                            <li>Explore</li>
+                            <li>Subscribe</li>
+                        </ul>
+                    </div>
+                    <div class="search">
+                        <div class="search-field">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input name="search" placeholder="search for anything"/>
+                        </div>
+                    </div>
+                    <div class="link2">
+                        <ul>
+                            <li>Udemy Business</li>
+                            <li>Teach on Udemy</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="language">
-                    <i class="fa-solid fa-globe icon-btn login-btn"></i>
+                <div class="header__buttons">
+                    <div class="cart-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <div class="button"> 
+                        <button type="button" class="btn login-btn" name="sign_in">Log in</button>
+                        <button type="button" class="btn signup-btn" name="sign_up">Sign up</button>
+                    </div>
+                    <div class="language">
+                        <i class="fa-solid fa-globe icon-btn login-btn"></i>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="main">
             <div class="hero">
                 <img src="./images/hero.jpg" alt="hero image"/>
+                <div class="hero__description">
+                    <p>Learn in-demand skills from real-world experts, at a price that fits your goals — with courses you can start today and finish on your schedule.</p>
+                    <button type="button" > Explore</button>
+                </div>
             </div>
             <div class="ai-skill">
                 <div class="ai-skill__title">
@@ -198,57 +215,57 @@
                         </div>
                     </div>
                 </div>
-                <div class="subscription">
-                    <div class="subscription__outer">
-                        <div class="subscripion__discription">
-                            <div class="subscription_headeing">
-                                <h2>Build your career with a Personal Plan subscription</h2>
-                                <p>Subscribers save an average of ₹4,000+ in their first month, stop paying per course. Join 5 lakh+ learners, starting at ₹500/month.</p>
-                            </div>
-                            <div class="subscription__plan">
-                                <ul>
-                                    <li>
-                                        <div class="subscription__list">
-                                            <div class="subscription__list-icon sparkles">
-                                                <i class="fa-solid fa-wand-magic-sparkles"></i>
-                                            </div>
-                                            <p>Get access to 28,000+ top-rated courses</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="subscription__list">
-                                            <div class="subscription__list-icon">
-                                                <i class="fa-solid fa-lightbulb"></i>
-                                            </div>
-                                            <p>Learn from 9,000+ expert instructors</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="subscription__list">
-                                            <div class="subscription__list-icon">
-                                                <i class="fa-solid fa-terminal"></i>
-                                            </div>
-                                            <p>Dev, IT, Business, Design and 50+ more topics</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="subscription__list">
-                                            <div class="subscription__list-icon">
-                                                <i class="fa-solid fa-trophy"></i>
-                                            </div>
-                                            <p>Certification prep for AWS, Microsoft, PMI, and more</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="subscription__button">
-                                <button type="button" id="subscription">Subscribe now</button>
-                                <a href="#">Learn more</a>
-                            </div>
+            </div>
+            <div class="subscription">
+                <div class="subscription__outer">
+                    <div class="subscripion__discription">
+                        <div class="subscription_headeing">
+                            <h2>Build your career with a Personal Plan subscription</h2>
+                            <p>Subscribers save an average of ₹4,000+ in their first month, stop paying per course. Join 5 lakh+ learners, starting at ₹500/month.</p>
                         </div>
-                        <div class="subscription__image">
-                            <img src="./images/subscription.webp" alt="subscription_image"/>
+                        <div class="subscription__plan">
+                            <ul>
+                                <li>
+                                    <div class="subscription__list">
+                                        <div class="subscription__list-icon sparkles">
+                                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+                                        </div>
+                                        <p>Get access to 28,000+ top-rated courses</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="subscription__list">
+                                        <div class="subscription__list-icon">
+                                            <i class="fa-solid fa-lightbulb"></i>
+                                        </div>
+                                        <p>Learn from 9,000+ expert instructors</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="subscription__list">
+                                        <div class="subscription__list-icon">
+                                            <i class="fa-solid fa-terminal"></i>
+                                        </div>
+                                        <p>Dev, IT, Business, Design and 50+ more topics</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="subscription__list">
+                                        <div class="subscription__list-icon">
+                                            <i class="fa-solid fa-trophy"></i>
+                                        </div>
+                                        <p>Certification prep for AWS, Microsoft, PMI, and more</p>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
+                        <div class="subscription__button">
+                            <button type="button" id="subscription">Subscribe now</button>
+                            <a href="#">Learn more</a>
+                        </div>
+                    </div>
+                    <div class="subscription__image">
+                        <img src="./images/subscription.webp" alt="subscription_image"/>
                     </div>
                 </div>
             </div>
@@ -400,39 +417,41 @@
                             <a href="#">Explore certifications and vouchers <span><i class="fa-solid fa-angle-right"></i></span></a>
                         </div>
                     </div>
-                    <div class="certificate__details">
-                        <div class="certificate__details-card">
-                            <div class="certificate__details-card-image">
-                                <img src="./images/cer1.webp" alt="certificate"/>
+                    <div class="certificate__details-card-session">
+                        <div class="certificate__details">
+                            <div class="certificate__details-card">
+                                <div class="certificate__details-card-image">
+                                    <img src="./images/cer1.webp" alt="certificate"/>
+                                </div>
+                                <div class="cetficate__details-card-description">
+                                    <h3>CompTIA</h3>
+                                    <p>Cloud, Networking, Cybersecurity</p>
+                                </div>
                             </div>
-                            <div class="cetficate__details-card-description">
-                                <h3>CompTIA</h3>
-                                <p>Cloud, Networking, Cybersecurity</p>
+                            <div class="certificate__details-card">
+                                <div class="certificate__details-card-image">
+                                    <img src="./images/cer2.webp" alt="certificate"/>
+                                </div>
+                                <div class="cetficate__details-card-description">
+                                    <h3>AWS</h3>
+                                    <p>Cloud, AI, Coding, Networking</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="certificate__details-card">
-                            <div class="certificate__details-card-image">
-                                <img src="./images/cer2.webp" alt="certificate"/>
-                            </div>
-                            <div class="cetficate__details-card-description">
-                                <h3>AWS</h3>
-                                <p>Cloud, AI, Coding, Networking</p>
-                            </div>
-                        </div>
-                        <div class="certificate__details-card">
-                            <div class="certificate__details-card-image">
-                                <img src="./images/cer3.webp" alt="certificate"/>
-                            </div>
-                            <div class="cetficate__details-card-description">
-                                <h3>PMI</h3>
-                                <p>Project & Program Management</p>
+                            <div class="certificate__details-card">
+                                <div class="certificate__details-card-image">
+                                    <img src="./images/cer3.webp" alt="certificate"/>
+                                </div>
+                                <div class="cetficate__details-card-description">
+                                    <h3>PMI</h3>
+                                    <p>Project & Program Management</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="skills">
-                <div class="skils__title">
+                <div class="skills__title">
                     <h2>Popular Skills</h2>
                 </div>
                 <div class="skills__details">
